@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Nous contacter</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <label for="nom_client">Nom : </label>
+        <input type="text" name="nom" id="nom_client" /><br /><br />
+        <label for="prenom_client">Prénom : </label>
+        <input type="text" name="prenom" id="prenom_client" /><br /><br />
+        <label for="email_client">Email : </label>
+        <input type="email" name="mail" id="email_client" /><br /><br />
+        <label for="telephone_client">Numéro de téléphone : </label>
+        <input type="tel" name="telephone" id="telephone_client" /><br /><br />
+        <label for="canal_contact">Cabal de contact préféré : </label>
+        <select name="canal" id="canal_contact">
+            <option value="email"> Email</option>
+            <option value="telephone"> Téléphone</option>
+        </select><br /><br />
+        <label for="message_contact"> Message : </label>
+        <textarea name="message" id="message_contact" cols="30" rows="10"></textarea><br /><br />
+        <input type="submit" value="Envoyer" />
+    </form>
+</body>
+<footer>
+    <p><a href="index.html">Retour à l'accueil</a></p>
+</footer>
+
+</html>
